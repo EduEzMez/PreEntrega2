@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1C2833;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url(../assets/font/Sora/Sora-VariableFont_wght.ttf);
+}
+
+a, p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sora', sans-serif;
+}
+
+
+
+.header__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20dvh;
+}
+
+.header__logo{
+    font-size: 40px;
+    font-weight: 600;
+    color: #F1C40F;
+}
+
+
+.caja_navbar{
+    justify-content: center;
+    align-items: center;
+    height: 14dvh;
+}
+
+.navbar__custom{
+    border: 3px solid #F1C40F ;
+    border-radius: 20px;
+}
+
+.nav__font--color{
+    color: #F1C40F;
+}
+
+.navbar-toggler-icon{
+    background-color: #F1C40F;
+}
+
+.navbar-toggler{background-color: #F1C40F;}
+
+
+.hero__container{
+    background-color: #F1C40F ;;
+    height: 40dvh;
+}
+
+.carousel-inner{
+    border: 3px solid #F1C40F ;
+    border-radius: 20px;
+}

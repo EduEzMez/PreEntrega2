@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #1C2833;
+    background-color: #ffffff;
 }
 
 @font-face {
@@ -26,13 +26,6 @@ a, p, h1, h2, h3, h4, h5, h6 {
     height: 20dvh;
 }
 
-.header__logo{
-    font-size: 40px;
-    font-weight: 600;
-    color: #F1C40F;
-}
-
-
 .caja_navbar{
     justify-content: center;
     align-items: center;
@@ -40,19 +33,20 @@ a, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar__custom{
-    border: 3px solid #F1C40F ;
+    border: 3px solid #004aad ;
     border-radius: 20px;
+    background-color: #ffffff;
 }
 
 .nav__font--color{
-    color: #F1C40F;
+    color: #004aad;
 }
 
 .navbar-toggler-icon{
-    background-color: #F1C40F;
+    background-color: #004aad;
 }
 
-.navbar-toggler{background-color: #F1C40F;}
+.navbar-toggler{background-color: #004aad;}
 
 
 .hero__container{

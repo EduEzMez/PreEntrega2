@@ -92,13 +92,10 @@ a, p, h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.item1{
-    padding: 20px;
-}
-
 .imagen__deslizadores{
     border-radius: 20px;
-    height: auto;
+    max-height: 60%;
+    width: auto;
 }
 
 .imagen__datos h2{
@@ -107,18 +104,28 @@ a, p, h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-.item3 dt{
+.item dt{
     font-size: 15px;
     color:#004aad;
 }
 
-.item3 dd{
+.item dd{
     font-size: 14px;
 }
 
 
 .footer__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 30dvh;
     background-color: #004aad;
     padding: 20px;
+}
+
+.footer__container p{
+    margin: 20px;
+    font-size: 10px;
+    color: #ffffff;
 }

@@ -61,6 +61,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .hero__h1{
+    max-width: 45dvh;
     font-size: 20px;
     font-weight: 500;
     padding: 20px;
@@ -70,11 +71,27 @@ a, p, h1, h2, h3, h4, h5, h6 {
 
 
 .descripcion_breve{
+    background-color: #004aad;
     height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.descripcion_breve h2{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.imagen__datos{
+    height: 100dvh;
+}
+
+
+
+
 
 .carousel-inner{
     border: 3px solid #F1C40F ;

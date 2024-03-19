@@ -23,13 +23,13 @@ a, p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20dvh;
+    padding: 20px;
+    height: 15dvh;
 }
 
 .caja_navbar{
-    justify-content: center;
-    align-items: center;
-    height: 14dvh;
+    height: 10dvh;
+    /* background-color: #004aad; */
 }
 
 .navbar__custom{
@@ -50,8 +50,30 @@ a, p, h1, h2, h3, h4, h5, h6 {
 
 
 .hero__container{
-    background-color: #F1C40F ;;
-    height: 40dvh;
+    background-image: url(../assets/img/deslizadores.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    background-color: #004bad6c;
+    border-radius: 20px;
+}
+
+
+.descripcion_breve{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-inner{

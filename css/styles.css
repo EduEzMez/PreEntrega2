@@ -88,17 +88,19 @@ a, p, h1, h2, h3, h4, h5, h6 {
     height: 100dvh;
 }
 
-.imagen__datos .item1{
+.item1{
     padding: 20px;
 }
 
 .imagen__deslizadores{
     border-radius: 20px;
+    height: auto;
 }
 
 .imagen__datos h2{
     text-align: center;
     font-size: 20px;
+    font-weight: 700;
 }
 
 .item3 dt{
@@ -111,10 +113,8 @@ a, p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
-
-.carousel-inner{
-    border: 3px solid #F1C40F ;
-    border-radius: 20px;
+.footer__container{
+    height: 30dvh;
+    background-color: #004aad;
+    padding: 20px;
 }

@@ -18,13 +18,42 @@ a, p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 .header__container{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     height: 15dvh;
+}
+
+@media (max-width: 768px){
+    .header__nav__mq{
+        display: none;
+        font-size: 10px;
+        margin: 0 1px
+    }
+}
+
+@media (max-width: 921px){
+    .header__nav__mq{
+    font-size: 13px;
+
+    }
+}
+
+@media (min-width: 769px){
+    .caja_navbar{
+        display: none;
+    }
+}
+
+.header__nav__mq li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 6px;
+}
+.header__nav__mq a{
+    text-decoration: none;
 }
 
 .caja_navbar{
@@ -66,6 +95,13 @@ a, p, h1, h2, h3, h4, h5, h6 {
     padding: 20px;
     background-color: #004bad6c;
     border-radius: 20px;
+}
+
+@media (min-width: 769px){
+    .hero__h1{
+        max-width: 60%;
+        font-size: 30px
+    }
 }
 
 

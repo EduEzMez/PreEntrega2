@@ -143,7 +143,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* ------ IMAGEN DATOS ------ */
+/* ------ CONTENEDOR IMAGEN DATOS ------ */
 .imagen__datos{
     height: 100dvh;
     width: 100%;
@@ -182,18 +182,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* @media (max-width: 601px){
-    .imagen__deslizadores{
-        margin: 10px;
-    }
-    .imagen__datos_h2 h2{
-        margin: 10px;
-    }
-    .imagen__datos_dl dl{
-        margin: 10px;
-    }
-} */
-
+/* ______IMAGEN__DATOS_IMAGEN______ */
 .imagen__datos_img{
     max-height: 50%;
     width: auto;
@@ -216,11 +205,9 @@ a, p, h1, h2, h3, h4, h5, h6 {
         max-height: 100%;
         width: auto;
     }
-    .imagen__datos_dl{
-        padding: 20px;
-    }
 }
 
+/* ______IMAGEN__DATOS_H2______ */
 .imagen__datos_h2{
     margin: 10px;
     display: flex;
@@ -235,7 +222,6 @@ a, p, h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-
 /* ______LISTA DETALLADA______ */
 .imagen__datos_dl {
     grid-area: des_descripcion;
@@ -248,6 +234,19 @@ a, p, h1, h2, h3, h4, h5, h6 {
 
 .imagen__datos_dl dd{
     font-size: 14px;
+}
+
+@media (min-width: 601px){
+    .imagen__datos_dl{
+        padding: 20px;
+    }
+    .imagen__datos_dl dt{
+        font-size: 20px;
+    }
+    
+    .imagen__datos_dl dd{
+        font-size: 20px;
+    }
 }
 
 

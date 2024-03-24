@@ -33,7 +33,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 620px){
     .nav__container{
         display: none;
     }
@@ -42,7 +42,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@media (min-width: 601px){
+@media (min-width: 621px){
     .header__container{
         height: 25dvh;
         display: flex;
@@ -79,7 +79,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@media (min-width: 863px){
+@media (min-width: 900px){
     .elementos__header{
         display: flex;
         justify-content: center;
@@ -106,7 +106,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
     height: 10dvh;
 }
 
-@media (min-width: 601px){
+@media (min-width: 621px){
     .caja_navbar{
         display: none;
     }
@@ -203,6 +203,21 @@ a, p, h1, h2, h3, h4, h5, h6 {
         "des_imagen des_descripcion"
         ;
         grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto;
+    }
+}
+
+@media (min-width: 1200px){
+    .imagen__datos{
+        padding: 20px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-template-areas:
+        "des_imagen des_titulo"
+        "des_imagen des_descripcion"
+        ;
+        grid-template-columns: 40% 40%;
         grid-template-rows: auto auto auto;
     }
 }
@@ -332,13 +347,84 @@ a, p, h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30dvh;
+    height: 60dvh;
     background-color: #004aad;
     padding: 20px;
 }
 
-.footer__container p{
-    margin: 20px;
-    font-size: 10px;
-    color: #ffffff;
+@media (min-width: 1010px){
+    .footer__container{
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-template-areas:
+        "logo redes telefono"
+        "derechos derechos derechos"
+        ;
+        grid-template-columns: repeat(3);
+        grid-template-rows: auto auto;
+
+        height: 40dvh;
+        gap: 30px;
+    }
+    
 }
+
+
+
+
+/* IMAGEN LOGO */
+.logo_footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    grid-area: logo;
+}
+
+/* LISTA REDES SOCIALES */
+.footer__menu_redes{
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: redes;
+}
+.footer__menu_redes img{
+    width: 10%;
+}
+.footer__menu_redes a{
+    color:white;
+    text-decoration: none;
+}
+.footer__menu_redes a:hover{
+    color: black;
+}
+.footer__menu_redes li{
+    list-style-type: none;
+}
+
+/* TELEFONO */
+.footer__telefono{
+    text-align: center;
+    grid-area: telefono;
+}
+.footer__telefono h3,h4{
+    color: white;
+}
+
+/* DERECHOS RESERVADOS */
+.derechos__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10dvh;
+    grid-area: derechos;
+    margin: 20px;
+}
+.derechos__container p{
+    font-size: 10px;
+    color: white;
+}
+

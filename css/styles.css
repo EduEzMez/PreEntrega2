@@ -428,3 +428,29 @@ a, p, h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+
+
+
+/* ------------ NOSOTROS------------- */
+
+/* ------ DESCRIPCION ------ */
+.descripcion_breve_sb{
+    background-color: #004aad;
+    height: 30dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion_breve_sb h2{
+    font-size: 15px;
+    font-weight: 300;
+    padding: 20px;
+    color: #ffffff;
+}
+
+@media (min-width: 769px){
+    .descripcion_breve_sb h2{
+        max-width: 70%;
+    }
+}

@@ -741,7 +741,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
         ;
         grid-template-columns: repeat(2);
         grid-template-rows: auto auto;
-        height: 100dvh;
+        height: 120dvh;
     }
 
     .datos_titulo{
@@ -751,7 +751,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
 
     .imagen_medidas{
         width: 700px;
-        height: 600px;
+        height: 400px;
         grid-area: imagen;
     }
 
@@ -762,23 +762,21 @@ a, p, h1, h2, h3, h4, h5, h6 {
         align-items: center;
         width: 500px;
         padding: 20px;
-        height: 600px;
+        height: 400px;
         grid-area: listado;
     }
 
     .informacion_materiales dt{
         color: #004aad;
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .informacion_materiales dd{
-        font-size: 20px;
+        font-size: 18px;
     }
 
-
-
     .tabla__contenedora{
-        padding: 30px;
+        padding: 10px;
         grid-area: tabla;
     }
 
@@ -845,10 +843,16 @@ a, p, h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
 }
 
-
 .formulario label{
     color: black;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_label_input{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -857,7 +861,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
     border-color: #004aad;
     padding: 10px;
     border-radius: 10px;
-    width: 260px;
+    width: auto;
 }
 
 .cuadro_mensaje{

@@ -543,13 +543,18 @@ a, p, h1, h2, h3, h4, h5, h6 {
 
 .productos__container h1{
     text-align: center;
+    font-size: 20px;
 }
+@media (min-width:935px){
+   
+}
+
 
 .productos_titulo{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30dvh;
+    height: 15dvh;
 }
 
 .productos__pack{
@@ -557,7 +562,12 @@ a, p, h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
 
+.contenedor__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagen_paquete h2, p, label{
@@ -565,7 +575,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .carta{
-    width: 320px;
+    width: 100%;
     height: 330px;
     max-width: 320px;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/img/deslizadores_taplaverde.webp);
@@ -602,6 +612,49 @@ a, p, h1, h2, h3, h4, h5, h6 {
 
 .seccion_compra .button_compra:hover{
     background-color: #3772c0;
+
+}
+
+
+
+@media (min-width:632px){
+    .productos__container{
+        width: 100%;
+        height: 120dvh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carta{
+        height: 380px;
+    }
+}
+
+@media (min-width:935px){
+    .productos__container{
+        width: 100%;
+        height: 90dvh;
+    }
+
+    .productos__pack{
+        height: 700px;
+    }
+    .carta{
+        height: 380px;
+    }
+
+    .productos_titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+    }
+    .productos__container h1{
+        font-size: 40px;
+    }
 
 }
 

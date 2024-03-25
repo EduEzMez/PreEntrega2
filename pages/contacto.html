@@ -60,53 +60,43 @@
     </div>
 
     <main>
-        <section class="container-fluid datos_informacion">
-            <div class="datos_titulo">
-                <h1>Para conocer mas nuestros deslizadores, te mostramos datos de los mismos.</h1>
-            </div>
-            <div class="imagen_medidas">
-            </div>
-            <div class="informacion_materiales">
-                <h2>Materiales de fabricacion</h2>
-                <div>
-                    <dl>
-                        <dt>Resistencia y durabilidad:</dt>
-                            <dd>Utilizamos plastico PLA que es biodegradable. Diseñados para un uso intensivo, soportando el peso de las puertas sin deformarse ni desgastarse.</dd>
-                        <dt>Funcionamiento suave y silencioso:</dt>
-                            <dd>Desplazamiento sin esfuerzo gracias a su sistema de rodamientos de alta calidad.</dd>
-                        <dt>Fácil instalación:</dt>
-                            <dd>Nuestros deslizadores son fáciles de instalar y no requieren herramientas especiales.</dd>
-                        <dt>Innovación para tu hogar:</dt>
-                            <dd>Olvidate de los deslizadores tradicionales y descubre una nueva generación de repuestos ecológicos y duraderos</dd>
-                        </dl>
+        <section class="container-fluid contacto__container">
+            <div class="container-fluid contenedor_texto_contacto">
+                <h1>Formulario de contacto</h1>
+                <p>Comunicate con nosotros completanto el formulario</p>
+                <div class="container-fluid contenedor_formulario">
+                    <div class="container-fluid formulario">
+                        <div class="caja_f">
+                            <form action="procesar_form.php" method="post" enctype="text/plain">
+                                <div class="text__requerido">
+                                    <h4>* Todos los campos son requeridos.</h4>
+                                </div>
+                                <div>
+                                    <div class="label_campo"><label for="name">Nombre </label></div>
+                                    <div class="input_campo"><input class="campos" type="name" name="name" id="name" required></div>
+                                </div>
+                                <div>
+                                    <div class="label_campo"><label for="apellido">Apellido</label></div>
+                                    <div class="input_campo"><input class="campos" type="name" name="apellido" id="apellido" required></div>
+                                </div>
+                                <div>
+                                    <div class="label_campo"><label for="mail"> E-mail</label></div>
+                                    <div class="input_campo"><input class="campos" type="mail" name="mail" id="mail" required></div>
+                                </div>
+                                <div>
+                                    <div class="label_campo2"><label for="mensaje">Mensaje</label></div>
+                                    <div class="input_campo"><textarea class="cuadro_mensaje" name="texto" id="texto" cols="70" rows="10" required></textarea></div>
+                                </div>
+                                <input class="boton_enviar" type="submit" value="Enviar">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="datos_contactos">
+                        <div class="imagen_contacto"></div>
                     </div>
                 </div>
-                <div class="container-fluid tabla__contenedora" >
-                    <table>
-                        <div>
-                            <tr class="titulo_tabla">
-                                <td>Colores</td>
-                                <td>Material</td>
-                                <td>Cant.pack</td>
-                            </tr>
-                        </div>
-                        <tr>
-                            <td>Blanco</td>
-                            <td class="alinear_tabla">PLA <span>(Biodegradable)</span></td>
-                            <td class="alinear_tabla">De 10 a 30 unidades</t>
-                        </tr>
-                        <tr>
-                            <td>Gris</td>
-                            <td class="alinear_tabla">PLA <span>(Biodegradable)</span></td>
-                            <td class="alinear_tabla">De 10 a 30 unidades</t>
-                            </tr>
-                        <tr>
-                            <td>Transparente</td>
-                            <td class="alinear_tabla">PLA <span>(Biodegradable)</span></td>
-                            <td class="alinear_tabla">De 10 a 30 unidades</t>
-                        </tr>
-                    </table>
-                </div>
+            </div>
+            
         </section>
 
         <section class="container-fluid descripcion_breve_sb">

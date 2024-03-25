@@ -483,10 +483,12 @@ a, p, h1, h2, h3, h4, h5, h6 {
 
 .sobrenosotros h1{
     font-size: 30px;
+    color: black;
 }
 
 .sobrenosotros p{
     font-size: 13px;
+    color: black;
 }
 
 .boton_ver_producto{
@@ -570,8 +572,8 @@ a, p, h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.imagen_paquete h2, p, label{
-    color: white;
+.imagen_pack_b h2, p, label{
+    color: rgb(255, 255, 255);
 }
 
 .carta{

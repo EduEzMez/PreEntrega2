@@ -547,10 +547,6 @@ a, p, h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-size: 20px;
 }
-@media (min-width:935px){
-   
-}
-
 
 .productos_titulo{
     display: flex;
@@ -573,6 +569,10 @@ a, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .imagen_pack_b h2, p, label{
+    color: rgb(255, 255, 255);
+}
+
+.datos_paquete p{
     color: rgb(255, 255, 255);
 }
 

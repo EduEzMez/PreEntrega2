@@ -370,9 +370,6 @@ a, p, h1, h2, h3, h4, h5, h6 {
     
 }
 
-
-
-
 /* IMAGEN LOGO */
 .logo_footer_container{
     display: flex;
@@ -421,7 +418,6 @@ a, p, h1, h2, h3, h4, h5, h6 {
     align-items: center;
     height: 10dvh;
     grid-area: derechos;
-    margin: 20px;
 }
 .derechos__container p{
     font-size: 10px;

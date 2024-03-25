@@ -454,6 +454,14 @@ a, p, h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width:600px){
+    .nosotros__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120dvh;
+    }
+
     .video__nosotros .video{
         width: 500px;
         height: 280px;
@@ -462,8 +470,9 @@ a, p, h1, h2, h3, h4, h5, h6 {
     .sobrenosotros{
         max-width: 80%;
     }
-    .sobrenosotros h1{
-        font-size: 40px;
+    .titulo_sobre_nosotros h1{
+        text-align: center;
+        font-size: 30px;
     }
     .sobrenosotros p{
         font-size: 16px;
@@ -477,11 +486,11 @@ a, p, h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.sobrenosotros span{
+.titulo_sobre_nosotros span{
     color: #004aad;
 }
 
-.sobrenosotros h1{
+.titulo_sobre_nosotros h1{
     font-size: 30px;
     color: black;
 }
@@ -528,7 +537,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
     .sobrenosotros{
         max-width: 80%;
     }
-    .sobrenosotros h1{
+    .titulo_sobre_nosotros h1{
         text-align: center;
         font-size: 30px;
     }

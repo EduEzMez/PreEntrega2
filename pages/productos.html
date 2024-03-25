@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="../assets/img/favicon2.png" type="image/x-icon">
 </head>
 <body>
-
     <header class="container-fluid header__container">
         <div class=" elementos__header">
             <div class="logo">
@@ -28,7 +27,6 @@
             </div>
         </div>
     </header>
-
     <div class="container-fluid caja_navbar">
         <nav class="navbar p-2 navbar-expand-lg m-3 navbar__custom ">
             <div class="container-fluid caja_navbar_div">
@@ -58,55 +56,90 @@
             </div>
         </nav>
     </div>
-
     <main>
-        <section class="container-fluid datos_informacion">
-            <div class="datos_titulo">
-                <h1>Para conocer mas nuestros deslizadores, te mostramos datos de los mismos.</h1>
+        <section class="container-fluid productos__container">
+            <div class="productos_titulo">
+                <h1>Bienvenido a la seccion de productos, donde podras adquirir el pack que mas te convenga.</h1>
             </div>
-            <div class="imagen_medidas">
-            </div>
-            <div class="informacion_materiales">
-                <h2>Materiales de fabricacion</h2>
-                <div>
-                    <dl>
-                        <dt>Resistencia y durabilidad:</dt>
-                            <dd>Utilizamos plastico PLA que es biodegradable. Diseñados para un uso intensivo, soportando el peso de las puertas sin deformarse ni desgastarse.</dd>
-                        <dt>Funcionamiento suave y silencioso:</dt>
-                            <dd>Desplazamiento sin esfuerzo gracias a su sistema de rodamientos de alta calidad.</dd>
-                        <dt>Fácil instalación:</dt>
-                            <dd>Nuestros deslizadores son fáciles de instalar y no requieren herramientas especiales.</dd>
-                        <dt>Innovación para tu hogar:</dt>
-                            <dd>Olvidate de los deslizadores tradicionales y descubre una nueva generación de repuestos ecológicos y duraderos</dd>
-                        </dl>
+            <div class="container-fluid text-center productos__pack">
+                <div class="row">
+                    <div class="col-sm carta">
+                        <div class="imagen_paquete">
+                            <h2>PACK 10 UNIDADES</h2>
+                        </div>
+                        <div class="informacion_paquete">
+                        <div class="datos_paquete">
+                            <p>Pack de 10 unidades de deslizadores. Los mismos vienen sin tornillos. Son compatibles con todas las plegadizas de pvc</p>
+                        </div>
+                        <div class="seccion_compra">
+                            <form action="compra_form.php">
+                                <div>
+                                    <div><label class="elegir_color" for="color">Selecciona color</label></div>
+                                    <select class="select_colores" name="color" id="color">
+                                        <option value="Blanco">Blanco - 30 Unidades</option>
+                                        <option value="Gris">Gris - 30 Unidades</option>
+                                        <option value="Transparente">Transparente - 30 Unidades</option>
+                                    </select>
+                                    <div>
+                                        <input class="button_compra" type="submit" value="Comprar">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-sm carta">
+                    <div class="imagen_paquete">
+                        <h2>PACK 20 UNIDADES</h2>
+                    </div>
+                    <div class="informacion_paquete">
+                        <div class="datos_paquete">
+                            <p>Pack de 20 unidades de deslizadores. Los mismos vienen sin tornillos. Son compatibles con todas las plegadizas de pvc</p>
+                        </div>
+                        <div class="seccion_compra">
+                            <form action="compra_form.php">
+                                <div>
+                                    <div><label class="elegir_color" for="color">Selecciona color</label></div>
+                                    <select class="select_colores" name="color" id="color">
+                                        <option value="Blanco">Blanco - 30 Unidades</option>
+                                        <option value="Gris">Gris - 30 Unidades</option>
+                                        <option value="Transparente">Transparente - 30 Unidades</option>
+                                    </select>
+                                    <div>
+                                        <input class="button_compra" type="submit" value="Comprar">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-sm carta">
+                    <div class="imagen_paquete">
+                        <h2>PACK 30 UNIDADES</h2>
+                    </div>
+                    <div class="informacion_paquete">
+                        <div class="datos_paquete">
+                            <p>Pack de 30 unidades de deslizadores. Los mismos vienen sin tornillos. Son compatibles con todas las plegadizas de pvc</p>
+                        </div>
+                        <div class="seccion_compra">
+                            <form action="compra_form.php">
+                                <div>
+                                    <div><label class="elegir_color" for="color">Selecciona color</label></div>
+                                    <select class="select_colores" name="color" id="color">
+                                        <option value="Blanco">Blanco - 30 Unidades</option>
+                                        <option value="Gris">Gris - 30 Unidades</option>
+                                        <option value="Transparente">Transparente - 30 Unidades</option>
+                                    </select>
+                                    <div>
+                                        <input class="button_compra" type="submit" value="Comprar">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                     </div>
                 </div>
-                <div class="container-fluid tabla__contenedora" >
-                    <table>
-                        <div>
-                            <tr class="titulo_tabla">
-                                <td>Colores</td>
-                                <td>Material</td>
-                                <td>Cant.pack</td>
-                            </tr>
-                        </div>
-                        <tr>
-                            <td>Blanco</td>
-                            <td class="alinear_tabla">PLA <span>(Biodegradable)</span></td>
-                            <td class="alinear_tabla">De 10 a 30 unidades</t>
-                        </tr>
-                        <tr>
-                            <td>Gris</td>
-                            <td class="alinear_tabla">PLA <span>(Biodegradable)</span></td>
-                            <td class="alinear_tabla">De 10 a 30 unidades</t>
-                            </tr>
-                        <tr>
-                            <td>Transparente</td>
-                            <td class="alinear_tabla">PLA <span>(Biodegradable)</span></td>
-                            <td class="alinear_tabla">De 10 a 30 unidades</t>
-                        </tr>
-                    </table>
-                </div>
+            </div>
         </section>
 
         <section class="container-fluid descripcion_breve_sb">

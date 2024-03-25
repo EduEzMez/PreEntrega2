@@ -472,8 +472,8 @@ a, p, h1, h2, h3, h4, h5, h6 {
 
 @media (min-width:900px){
     .video__nosotros .video{
-        width: 700px;
-        height: 380px;
+        width: 500px;
+        height: 280px;
     }
 }
 
@@ -511,9 +511,18 @@ a, p, h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width:1040px){
+
+    .nosotros__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 130dvh;
+    }
+
     .video__nosotros .video{
-        width: 900px;
-        height: 480px;
+        width: 700px;
+        height: 360px;
     }
 
     .sobrenosotros{
@@ -524,7 +533,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
         font-size: 30px;
     }
     .sobrenosotros p{
-        font-size: 17px;
+        font-size: 14px;
     }
 }
 

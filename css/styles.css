@@ -159,7 +159,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
 /* ------ DESCRIPCION ------ */
 .descripcion_breve{
     background-color: #004aad;
-    height: 100dvh;
+    height: 30dvh;
     display: flex;
     justify-content: center;
     align-items: center;

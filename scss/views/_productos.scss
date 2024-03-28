@@ -1,0 +1,121 @@
+/* ------------ PRODUCTOS ------------- */
+
+.productos__container{
+    width: 100%;
+    height: 150dvh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+.productos_titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15dvh;
+}
+
+.productos__pack{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen_pack_b h2, p, label{
+    color: rgb(255, 255, 255);
+}
+
+.datos_paquete p{
+    color: rgb(255, 255, 255);
+}
+
+.carta{
+    width: 100%;
+    height: 330px;
+    max-width: 320px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/img/deslizadores_taplaverde.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 2.6;
+    border-radius: 30px;
+    border:$color-tertiary solid 5px;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion_compra{
+    .select_colores{
+        color: $color-primary;
+        background-color: $color-tertiary;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .button_compra{
+        color: $color-primary;
+        background-color: $color-tertiary;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .button_compra:hover{
+        background-color: $color-p_hover;
+    
+    }
+}
+
+@media (min-width:632px){
+    .productos__container{
+        width: 100%;
+        height: 120dvh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .carta{
+        height: 380px;
+    }
+}
+
+@media (min-width:935px){
+    .productos__container{
+        width: 100%;
+        height: 90dvh;
+        h1{
+            font-size: 30px;
+        }
+    }
+    .productos__pack{
+        height: 700px;
+    }
+    .carta{
+        height: 380px;
+    }
+    .productos_titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+    }
+}

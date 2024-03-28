@@ -1,0 +1,117 @@
+/* ------------ NOSOTROS------------- */
+
+/* ------ VIDEO Y HISTORIA ------ */
+.nosotros__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.video__nosotros{
+    padding: 20px;
+    .video{
+        width: 300px;
+        height: 200px;
+        border-radius: 30px;
+        border: 3px solid $color-tertiary;
+    }
+}
+
+@media (min-width:600px){
+    .nosotros__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120dvh;
+    }
+
+    .video__nosotros .video{
+        width: 500px;
+        height: 280px;
+    }
+
+    .sobrenosotros{
+        max-width: 80%;
+        p{
+            font-size: 16px;
+        }
+    }
+    .titulo_sobre_nosotros h1{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:900px){
+    .video__nosotros .video{
+        width: 500px;
+        height: 280px;
+    }
+}
+
+.titulo_sobre_nosotros{
+    text-align: center;
+    span{
+        color: $color-tertiary;
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+        color: $color-secondary;
+    }
+    
+}
+
+.sobrenosotros p{
+    font-size: 13px;
+    color: $color-secondary;
+}
+
+.boton_ver_producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        background-color: $color-tertiary;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        color: #ffffff;
+    }
+    button:hover{
+        background-color: $color-tertiary;
+        color: #ffffff;
+    }
+}
+
+@media (min-width:1040px){
+
+    .nosotros__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 130dvh;
+    }
+
+    .video__nosotros .video{
+        width: 700px;
+        height: 360px;
+    }
+
+    .sobrenosotros{
+        max-width: 80%;
+        p{
+            font-size: 14px;
+        }
+    }
+    .titulo_sobre_nosotros h1{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+

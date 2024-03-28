@@ -1,0 +1,25 @@
+.caja_navbar{
+    height: 10dvh;
+}
+
+@media (min-width: 621px){
+    .caja_navbar{
+        display: none;
+    }
+}
+
+.navbar__custom{
+    border: 3px solid $color-tertiary ;
+    border-radius: 20px;
+    background-color: $color-primary;
+}
+
+.nav__font--color{
+    color: $color-tertiary;
+}
+
+.navbar-toggler-icon{
+    background-color: $color-tertiary;
+}
+
+.navbar-toggler{background-color: $color-tertiary}

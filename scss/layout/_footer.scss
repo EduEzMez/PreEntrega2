@@ -1,0 +1,81 @@
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60dvh;
+    background-color: $color-tertiary;
+    padding: 20px;
+}
+
+@media (min-width: 1010px){
+    .footer__container{
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-template-areas:
+        "logo redes telefono"
+        "derechos derechos derechos"
+        ;
+        grid-template-columns: repeat(3);
+        grid-template-rows: auto 20px;
+
+        height: 40dvh;
+        gap: 30px;
+    }
+    
+}
+
+/* IMAGEN LOGO */
+.logo_footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    grid-area: logo;
+}
+
+/* LISTA REDES SOCIALES */
+.footer__menu_redes{
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: redes;
+    img{
+        width: 10%;
+    }
+    li{
+        list-style-type: none;
+    }
+    a{
+        color:$color-primary;
+        text-decoration: none;
+    }
+    a:hover{
+        color: $color-secondary;
+    }
+}
+
+@media (min-width: 1200px){
+    .footer__menu_redes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* TELEFONO */
+.footer__telefono{
+    text-align: center;
+    grid-area: telefono;
+    h3, h4{
+        color: $color-primary;
+    }
+}
+
+.derechos__container p{
+    font-size: 10px;
+    color: $color-primary;
+}

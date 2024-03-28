@@ -1,2 +1,8 @@
 @import "utilities/_variables.scss";
-@import "base/reset"
+@import "base/reset";
+@import "themes/body";
+@import "base/typography";
+@import "layout/header";
+@import "layout/hamburguer";
+@import "views/home";
+@import "layout/footer"

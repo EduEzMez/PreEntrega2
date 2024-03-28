@@ -1,0 +1,196 @@
+.hero__container{
+    background-image: url(../assets/img/deslizadores.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .hero__h1{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 20px;
+        background-color: $color-tertiary;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 769px){
+    .hero__h1{
+        max-width: 60%;
+        font-size: 30px
+    }
+}
+
+//Seccion DESCRIPCION
+.descripcion_breve{
+    background-color: $color-tertiary;
+    height: 30dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-size: 20px;
+        font-weight: 300;
+        padding: 20px;
+        color: #ffffff;
+    }
+}
+
+@media (min-width: 769px){
+    .descripcion_breve h2{
+        max-width: 70%;
+    }
+}
+
+//Seccion CONTENEDOR IMAGEN-DATOS
+.imagen__datos{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+@media (min-width: 1010px){
+    .imagen__datos{
+        padding: 20px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-template-areas:
+        "des_imagen des_titulo"
+        "des_imagen des_descripcion"
+        ;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto;
+    }
+}
+
+@media (min-width: 1200px){
+    .imagen__datos{
+        padding: 20px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-template-areas:
+        "des_imagen des_titulo"
+        "des_imagen des_descripcion"
+        ;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: auto auto auto;
+    }
+}
+
+@media (min-width: 601px){
+    .imagen__datos_h2 h2{
+    margin: 10px;
+    }
+    .imagen__datos_dl dl{
+    margin: 10px;
+    }
+}
+
+// IMAGEN_DATOS_IMAGEN
+.imagen__datos_img{
+    width: auto;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: des_imagen;
+}
+.imagen__deslizadores{
+    border-radius: 20px;
+    max-height: 90%;
+}
+
+@media (min-width: 601px){
+    .imagen__deslizadores{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1010px){
+    .imagen__datos_img{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagen__deslizadores{
+        width: 80%;
+        max-height: auto;
+    }
+}
+
+// IMAGEN_DATOS_H2
+.imagen__datos_h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: des_titulo;
+    h2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 1010px){
+    .imagen__datos_h2{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 100%;
+        h2{
+            font-size: 30px ;
+        }
+    }
+}
+
+// LISTA_DETALLADA
+.imagen__datos_dl {
+    grid-area: des_descripcion;
+    dt{
+        font-size: 15px;
+        color:$color-tertiary;
+    }
+    dd{
+        font-size: 14px;
+    }
+}
+
+
+
+@media (min-width: 601px){
+    .imagen__datos_dl{
+        padding: 10px;
+        dt{
+            font-size: 20px;
+        }
+        dd{
+            font-size: 20px;
+        }
+    }
+}
+
+@media (min-width: 1010px){
+    .imagen__datos_dl{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        dt{
+            font-size: 30px;
+        }
+        dd{
+            font-size: 20px;
+        }
+    }
+}

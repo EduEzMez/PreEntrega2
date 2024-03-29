@@ -14,7 +14,7 @@
     align-items: center;
 
     h1{
-        @include aparecer;
+        @include aparecer;//Llamando el mixin
         font-size: 20px;
         font-weight: 500;
         padding: 20px;

@@ -71,7 +71,8 @@
         ;
         grid-template-columns: repeat(2);
         grid-template-rows: auto auto;
-        height: 120dvh;
+        height: auto;
+        padding: 20px;
     }
     .datos_titulo{
         height: 100px;

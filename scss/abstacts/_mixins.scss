@@ -1,0 +1,9 @@
+// Conceptos de Mixins
+
+
+@mixin flex-center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

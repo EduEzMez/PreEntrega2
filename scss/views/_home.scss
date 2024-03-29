@@ -1,10 +1,7 @@
-.llamando_mixins{
-    @include flex-center-center;
-    background-color: blue;
-}
-
-
-
+// .llamando_mixins{
+//     @include flex-center-center;
+//     background-color: blue;
+// }
 
 .hero__container{
     background-image: url(../assets/img/deslizadores.webp);
@@ -17,12 +14,7 @@
     align-items: center;
 
     h1{
-        animation-name: animacion;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in;
-        animation-duration: 2s;
-        animation-delay: 10s;
-        
+        @include aparecer;
         font-size: 20px;
         font-weight: 500;
         padding: 20px;

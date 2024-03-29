@@ -434,11 +434,13 @@ a, p, h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100dvh;
+    height: auto;
+    padding: 20px;
+
 }
 
 .video__nosotros{
-    padding: 20px;
+    padding: 10px;
 }
 
 .video__nosotros .video{
@@ -454,7 +456,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 120dvh;
+        height: auto;
     }
 
     .video__nosotros .video{
@@ -526,7 +528,8 @@ a, p, h1, h2, h3, h4, h5, h6 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 130dvh;
+        height: auto;
+        padding: 20px;
     }
 
     .video__nosotros .video{
@@ -542,7 +545,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
         font-size: 30px;
     }
     .sobrenosotros p{
-        font-size: 14px;
+        font-size: 20px;
     }
 }
 

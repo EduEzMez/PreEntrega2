@@ -110,6 +110,13 @@ a, p, h1, h2, h3, h4, h5, h6 {
   background-color: #004aad;
 }
 
+.llamando_mixins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
 .hero__container {
   background-image: url(../assets/img/deslizadores.webp);
   background-position: center;
@@ -121,6 +128,11 @@ a, p, h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 .hero__container h1 {
+  animation-name: animacion;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 10s;
   font-size: 20px;
   font-weight: 500;
   padding: 20px;

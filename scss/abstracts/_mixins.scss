@@ -7,3 +7,9 @@
     align-items: center;
 }
 
+@mixin animation{
+    @keyframes animacion{
+        0%{display: none;}
+        100%{display: block;}
+    }
+}

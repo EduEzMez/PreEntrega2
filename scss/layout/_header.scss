@@ -7,6 +7,9 @@
     padding: 20px;
     width: 100%;
     height: 15dvh;
+    .logo{
+        @include animation;
+    }
 }
 
 @media (max-width: 620px){

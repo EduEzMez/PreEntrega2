@@ -665,6 +665,9 @@ a, p, h1, h2, h3, h4, h5, h6 {
 .tabla__contenedora span {
   color: #004aad;
 }
+.tabla__contenedora .titulo_tabla td {
+  background-color: rgb(198, 195, 195);
+}
 
 .datos_informacion td {
   background-color: #ffffff;
@@ -686,6 +689,17 @@ a, p, h1, h2, h3, h4, h5, h6 {
     height: 400px;
     margin: 20px 0;
     background-size: contain;
+  }
+}
+@media (min-width: 1000px) {
+  .datos_informacion {
+    height: auto;
+  }
+  .informacion_materiales dt {
+    font-size: 20px;
+  }
+  .informacion_materiales dd {
+    font-size: 15px;
   }
 }
 @media (min-width: 1200px) {
@@ -733,9 +747,6 @@ a, p, h1, h2, h3, h4, h5, h6 {
   .tabla__contenedora {
     padding: 10px;
     grid-area: tabla;
-  }
-  .tabla__contenedora .titulo_tabla tr, .tabla__contenedora td {
-    background-color: rgb(198, 195, 195);
   }
 }
 /* ------ DESCRIPCION ------ */

@@ -1,5 +1,4 @@
 /* ------------ PRODUCTOS ------------- */
-
 .productos__container{
     width: 100%;
     height: 100%;
@@ -79,7 +78,6 @@
     }
     .button_compra:hover{
         background-color: $color-p_hover;
-    
     }
 }
 
@@ -96,8 +94,7 @@
     }
 }
 
-
-@media (min-width:1024px){
+@media (min-width:945px){
     .productos__container{
         height: auto;
     }
@@ -125,6 +122,4 @@
     .carta{
         height: 380px;
     }
-    
-            
 }

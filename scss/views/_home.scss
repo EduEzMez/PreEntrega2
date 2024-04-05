@@ -1,17 +1,9 @@
-// .llamando_mixins{
-//     @include flex-center-center;
-//     background-color: blue;
-// }
-
 .hero__container{
     background-image: url(../assets/img/deslizadores_tiny.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 75dvh;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     @include flex-center-center;
 
     h1{
@@ -40,9 +32,6 @@
 .descripcion_breve{
     background-color: $color-tertiary;
     height: 30dvh;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     @include flex-center-center;
 
     h2{
@@ -114,9 +103,6 @@
 .imagen__datos_img{
     width: auto;
     height: 50%;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     @include flex-center-center;
     grid-area: des_imagen;
 }
@@ -134,9 +120,6 @@
 @media (min-width: 1010px){
     .imagen__datos_img{
         height: 100%;
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
         @include flex-center-center;
     }
     .imagen__deslizadores{
@@ -147,9 +130,6 @@
 
 // IMAGEN_DATOS_H2
 .imagen__datos_h2{
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     @include flex-center-center;
     grid-area: des_titulo;
     h2{
@@ -161,9 +141,6 @@
 
 @media (min-width: 1010px){
     .imagen__datos_h2{
-        // display: flex;
-        // justify-content: center;
-        // align-content: center;
         @include flex-center-center;
         height: 100%;
         h2{
@@ -184,8 +161,6 @@
     }
 }
 
-
-
 @media (min-width: 601px){
     .imagen__datos_dl{
         padding: 10px;
@@ -200,9 +175,6 @@
 
 @media (min-width: 1010px){
     .imagen__datos_dl{
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
         @include flex-center-center;
         height: 100%;
         dt{

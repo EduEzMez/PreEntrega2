@@ -610,7 +610,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
     height: 380px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 945px) {
   .productos__container {
     height: auto;
   }
@@ -796,6 +796,12 @@ span {
 @media (max-width: 1300px) {
   .imagen_contacto {
     display: none;
+  }
+}
+@media (min-width: 945px) {
+  .contacto__container {
+    height: auto;
+    padding: 20px;
   }
 }
 @media (min-width: 1000px) {

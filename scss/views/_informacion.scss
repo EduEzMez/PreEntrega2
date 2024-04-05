@@ -1,10 +1,7 @@
 /* ------------ INFORMACION------------- */
 
 .datos_informacion{
-    // display: flex;
     flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
     @include flex-center-center;
     height: 130dvh;
     padding: 20px;
@@ -29,9 +26,6 @@
 }
 
 .tabla__contenedora{
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     @include flex-center-center;
     span{
         color: $color-tertiary;
@@ -109,10 +103,7 @@
         grid-area: imagen;
     }
     .informacion_materiales{
-        // display: flex;
         flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
         @include flex-center-center;
         width: 500px;
         padding: 20px;
@@ -136,9 +127,6 @@
 .descripcion_breve_sb{
     background-color: $color-tertiary;
     height: 30dvh;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     @include flex-center-center;
     h2{
         font-size: 15px;

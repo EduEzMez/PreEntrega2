@@ -8,6 +8,10 @@
     height: 100dvh;
 }
 
+span{
+    color: $color-tertiary;
+}
+
 @media (max-width:1300px){
     .imagen_contacto{
         display: none;
@@ -22,6 +26,7 @@
         width: 100%;
         height: 80dvh;
         padding: 20px;
+        margin: 10px;
     }
     .contenedor_formulario{
         display: grid;
@@ -67,7 +72,7 @@
     }
 }
 
-.text__requerido h4{
+.text__requerido p{
     text-align: center;
     color: $color-alert;
     font-size: 14px;
@@ -94,6 +99,8 @@
     align-items: center;
 }
 
+
+
 .campos{
     border-color: $color-tertiary;
     padding: 10px;
@@ -107,6 +114,15 @@
     border-radius: 10px;
     padding: 5px;
     height: 200px;
+}
+
+@media (min-width:1300px){
+    .campos{
+        width: 350px;
+    }
+    .cuadro_mensaje{
+        width: 400px;
+    }
 }
 
 .boton_enviar{

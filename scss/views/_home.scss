@@ -23,6 +23,7 @@
         color: $color-primary;
     }
     span{
+        color: $color-primary;
         text-shadow: 2px 2px 2px $color-secondary;
     }
 }
@@ -43,7 +44,7 @@
     align-items: center;
 
     h2{
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 300;
         padding: 20px;
         color: $color-primary;
@@ -92,6 +93,9 @@
         ;
         grid-template-columns: 40% 40%;
         grid-template-rows: auto auto auto;
+    }
+    .hero__container h1{
+        font-size: 30px;
     }
 }
 

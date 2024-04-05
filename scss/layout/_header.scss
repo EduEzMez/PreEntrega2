@@ -23,11 +23,17 @@
 
 @media (min-width: 621px){
     .header__container{
-        height: 25dvh;
+        height: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        img{
+            display: block;
+            height: auto;
+            max-width: 100%;
+
+        }
     }
 
     .elementos__header{

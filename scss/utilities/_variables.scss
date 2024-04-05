@@ -3,9 +3,3 @@ $color-secondary: black;
 $color-tertiary:#004aad;
 $color-p_hover:#3772c0;
 $color-alert: red;
-
-@mixin flexdispley{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}

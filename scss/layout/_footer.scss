@@ -64,6 +64,7 @@
         justify-content: center;
         align-items: center;
     }
+    
 }
 
 /* TELEFONO */
@@ -75,7 +76,12 @@
     }
 }
 
-.derechos__container p{
-    font-size: 10px;
-    color: $color-primary;
+.derechos__container{
+    grid-area: derechos;
+    text-align: center;
+    p{
+        font-size: 10px;
+        color: $color-primary;
+    }
+    
 }

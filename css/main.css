@@ -381,6 +381,10 @@ a, p, h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
 }
 
+.derechos__container {
+  grid-area: derechos;
+  text-align: center;
+}
 .derechos__container p {
   font-size: 10px;
   color: #ffffff;

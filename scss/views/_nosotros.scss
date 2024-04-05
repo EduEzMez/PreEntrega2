@@ -2,10 +2,11 @@
 
 /* ------ VIDEO Y HISTORIA ------ */
 .nosotros__container{
-    display: flex;
+    // display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
+    @include flex-center-center;
     height: auto;
     padding: 20px;
 }
@@ -22,10 +23,11 @@
 
 @media (min-width:600px){
     .nosotros__container{
-        display: flex;
+        // display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        // justify-content: center;
+        // align-items: center;
+        @include flex-center-center;
         height: auto;
     }
 
@@ -91,10 +93,11 @@
 @media (min-width:1040px){
 
     .nosotros__container{
-        display: flex;
+        // display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        // justify-content: center;
+        // align-items: center;
+        @include flex-center-center;
         height: auto;
         padding: 20px;
     }

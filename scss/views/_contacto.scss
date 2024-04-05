@@ -1,9 +1,10 @@
 /* ------------ CONTACTO------------- */
 
 .contacto__container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @include flex-center-center;
     width: 100%;
     height: 100dvh;
 }
@@ -28,9 +29,10 @@ span{
 
 @media (min-width:1300px){
     .contacto__container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        @include flex-center-center;
         width: 100%;
         height: auto;
         padding: 20px;
@@ -68,10 +70,11 @@ span{
 
 
 .contenedor_texto_contacto{
-    display: flex;
+    // display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
+    @include flex-center-center;
     h1, p{
         text-align: center;
         color: $color-secondary;
@@ -91,9 +94,10 @@ span{
     grid-area: formulario;
     label{
         color: $color-secondary;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        @include flex-center-center;
     }
 }
 
@@ -102,10 +106,11 @@ span{
 }
 
 .contenedor_label_input{
-    display: flex;
+    // display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
+    @include flex-center-center;
 }
 
 

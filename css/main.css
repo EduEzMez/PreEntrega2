@@ -277,7 +277,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
   .imagen__datos_h2 {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     height: 100%;
   }
   .imagen__datos_h2 h2 {
@@ -402,8 +402,8 @@ a, p, h1, h2, h3, h4, h5, h6 {
 /* ------------ NOSOTROS------------- */
 /* ------ VIDEO Y HISTORIA ------ */
 .nosotros__container {
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: auto;
@@ -422,8 +422,8 @@ a, p, h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 600px) {
   .nosotros__container {
-    display: flex;
     flex-direction: column;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
@@ -485,8 +485,8 @@ a, p, h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1040px) {
   .nosotros__container {
-    display: flex;
     flex-direction: column;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
@@ -512,8 +512,8 @@ a, p, h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   padding: 20px;
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -562,8 +562,8 @@ a, p, h1, h2, h3, h4, h5, h6 {
   border-radius: 30px;
   border: #004aad solid 5px;
   margin: 3px;
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -593,8 +593,8 @@ a, p, h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 120dvh;
     padding: 20px;
-    display: flex;
     flex-direction: column;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -631,8 +631,8 @@ a, p, h1, h2, h3, h4, h5, h6 {
 }
 /* ------------ INFORMACION------------- */
 .datos_informacion {
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 130dvh;
@@ -714,8 +714,8 @@ a, p, h1, h2, h3, h4, h5, h6 {
     grid-area: imagen;
   }
   .informacion_materiales {
-    display: flex;
     flex-direction: column;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 500px;
@@ -733,6 +733,9 @@ a, p, h1, h2, h3, h4, h5, h6 {
   .tabla__contenedora {
     padding: 10px;
     grid-area: tabla;
+  }
+  .tabla__contenedora .titulo_tabla tr, .tabla__contenedora td {
+    background-color: rgb(198, 195, 195);
   }
 }
 /* ------ DESCRIPCION ------ */
@@ -815,8 +818,8 @@ span {
   }
 }
 .contenedor_texto_contacto {
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -849,8 +852,8 @@ span {
 }
 
 .contenedor_label_input {
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
 }

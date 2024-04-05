@@ -9,9 +9,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 75dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @include flex-center-center;
 
     h1{
         @include aparecer;//Llamando el mixin
@@ -39,9 +40,10 @@
 .descripcion_breve{
     background-color: $color-tertiary;
     height: 30dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @include flex-center-center;
 
     h2{
         font-size: 15px;
@@ -112,9 +114,10 @@
 .imagen__datos_img{
     width: auto;
     height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @include flex-center-center;
     grid-area: des_imagen;
 }
 .imagen__deslizadores{
@@ -131,9 +134,10 @@
 @media (min-width: 1010px){
     .imagen__datos_img{
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        @include flex-center-center;
     }
     .imagen__deslizadores{
         width: 80%;
@@ -143,9 +147,10 @@
 
 // IMAGEN_DATOS_H2
 .imagen__datos_h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @include flex-center-center;
     grid-area: des_titulo;
     h2{
         text-align: center;
@@ -156,9 +161,10 @@
 
 @media (min-width: 1010px){
     .imagen__datos_h2{
-        display: flex;
-        justify-content: center;
-        align-content: center;
+        // display: flex;
+        // justify-content: center;
+        // align-content: center;
+        @include flex-center-center;
         height: 100%;
         h2{
             font-size: 30px ;
@@ -194,9 +200,10 @@
 
 @media (min-width: 1010px){
     .imagen__datos_dl{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        @include flex-center-center;
         height: 100%;
         dt{
             font-size: 30px;

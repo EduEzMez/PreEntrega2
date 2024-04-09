@@ -919,4 +919,19 @@ span {
   border-radius: 20px;
 }
 
+.nofound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100dvh;
+}
+.nofound h1 {
+  color: #004aad;
+}
+.nofound p {
+  color: #004aad;
+}
+
 /*# sourceMappingURL=main.css.map */

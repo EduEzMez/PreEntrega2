@@ -1,0 +1,12 @@
+.nofound{
+    @include flex-center-center;
+    flex-direction: column;
+    width: 100%;
+    height: 100dvh;
+    h1{
+        color: $color-tertiary;
+    }
+    p{
+        color: $color-tertiary;
+    }
+}
